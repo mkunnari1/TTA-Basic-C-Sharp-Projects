@@ -8,28 +8,25 @@ namespace page111Drill
 {
     public class Calculations
     {
-        public static int Additions()
+        public static int Additions(int userInput)
         {
-            int userInput = Convert.ToInt32(Console.ReadLine());
             int answer1 = userInput + 10;
             return answer1;
             
         }
 
-        public static int Multiply()
+        public static int Multiply(int userInput)
         {
             Random random = new Random();
             int randomNumber = random.Next(0, 100);
-            int userInput = Convert.ToInt32(Console.ReadLine());
             int answer1 = userInput * randomNumber;
             return answer1;
         }
 
-        public static int wholeLottaMath()
+        public static int wholeLottaMath(int userInput)
         {
             Random random = new Random();
             int randomNumber = random.Next(0, 100);
-            int userInput = Convert.ToInt32(Console.ReadLine());
             if (randomNumber <= userInput)
             {
                 int tempNum = userInput * randomNumber;

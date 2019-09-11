@@ -46,7 +46,9 @@ namespace page103Drill
                 {
                     Console.WriteLine("i like dogs");
 
+
                 }
+                cool = false;
                 Console.ReadLine();
             }
 
@@ -72,54 +74,82 @@ namespace page103Drill
             Console.WriteLine("I have a list of names can you guess any of them? Please give me a name.");
             string guess = Console.ReadLine();
 
-            foreach (string name in names)
+            for (int j = 0; j < names.Count; j++)
             {
-                if (guess == name)
+                string name = names[j];
+                if (name == guess)
                 {
-                    Console.WriteLine("you guessed " + guess + " that name is on the list in index: " + names.IndexOf(name));
+                    Console.WriteLine("Nice work! " + name + " is on my list! It resides in index: " + j);
+                    Console.ReadLine();
                     System.Environment.Exit(1);
                 }
-                else
-                {
-                    Console.WriteLine("you guessed " + guess + " that name is not on the list please try again.");
-                    break;
-                }
+
             }
+            Console.WriteLine("Sorry but the name you guessed was not on my list.");
             Console.ReadLine();
 
-            //9 10 couldnt get it to list the index of both occurences, always just prints the first occurence of the duplicate, used Index of but I know there must be a better way that works
+            //9 10  
 
             List<string> names2 = new List<string>() { "joe", "tony", "tyler", "john", "matt", "alicia", "jane", "nancy", "tim", "joe" };
+            List<string> names3 = new List<string>();
             Console.WriteLine("User, Please enter a name to search for.");
             string guess2 = Console.ReadLine();
 
-            foreach (string name2 in names2)
+            for (int i = 0; i < names2.Count; i++)
             {
+                string name2 = names2[i];
+                string name3 = name2 + " " + i;
+
                 if (name2 == guess2)
                 {
-                    Console.WriteLine(guess2 + guess2.IndexOf(name2));
+                    names3.Add(name3);
                 }
             }
+
+            foreach (string name in names3)
+            {
+                Console.WriteLine(name);
+            }
+            if (names3.Count == 0)
+            {
+                Console.WriteLine("Sorry but " + guess2.ToUpper() + " is not contained in this database");
+            }
+
+
 
             Console.ReadLine();
 
             //11
 
-            List<string> names3 = new List<string>()
+            List<string> names4 = new List<string>()
             {
                 "joe", "tony", "tyler", "john", "matt", "alicia", "jane", "nancy", "tim", "joe"
             };
-            var hashset = new HashSet<string>();
+            List<string> unique = new List<string>();
+            List<string> duplicates = new List<string>();
 
-            foreach( string name3 in names3)
+            foreach ( string name in names4)
             {
-                if (!hashset.Add(name3))
+                if (!unique.Contains(name))
                 {
-                    Console.WriteLine("List contains duplicate value \"" + name3 + "\"");
-                    break;
+                    unique.Add(name);
                 }
-               
+                else
+                {
+                    duplicates.Add(name);
+                }
             }
+
+            foreach (string j in unique)
+            {
+                Console.WriteLine(j);
+            }
+
+            foreach (string k in duplicates)
+            {
+                Console.WriteLine(k + " is a duplicate value");
+            }
+           
             Console.ReadLine();
         }
     }

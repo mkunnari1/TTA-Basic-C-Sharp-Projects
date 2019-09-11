@@ -10,8 +10,7 @@ namespace page113Drill
     {
         static void Main(string[] args)
         {
-            
-            mathClass.doIt(5, 3);
+            mathClass.doIt(15, 3);
             mathClass.doIt(num1: 3, num2: 15);
             Console.ReadLine();
         }

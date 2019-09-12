@@ -10,6 +10,12 @@ namespace page120Drill
     {
         static void Main(string[] args)
         {
+            Employee student1 = new Employee();
+            student1.FirstName = "Sample";
+            student1.LastName = "Student";
+
+            student1.SayName();
+            Console.ReadLine();
         }
     }
 }

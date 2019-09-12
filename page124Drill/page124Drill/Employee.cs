@@ -6,7 +6,13 @@ using System.Threading.Tasks;
 
 namespace page124Drill
 {
-    class Employee
+    class Employee : Person
     {
+        public override void SayName()
+        {
+            base.SayName();
+        }
     }
+    
+        
 }

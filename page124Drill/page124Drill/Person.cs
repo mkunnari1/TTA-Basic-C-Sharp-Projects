@@ -11,9 +11,9 @@ namespace page124Drill
         public string FirstName { get; set; }
         public string LastName { get; set; }
 
-        public static void SayName(string FirstName, string LastName)
+        public virtual void SayName()
         {
-            Console.WriteLine("Name: {0} {1}" + FirstName + LastName);
+            Console.WriteLine("Name: {0} {1}",  FirstName,  LastName);
         }
     }
 }

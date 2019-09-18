@@ -11,7 +11,18 @@ namespace page124Drill
         static void Main(string[] args)
         {
             Employee employee = new Employee();
-            employee.Quit(employee);
+            Console.WriteLine("Pick a number any number");
+            int numPick = Convert.ToInt32(Console.ReadLine());
+            if(numPick < 15)
+            {
+                employee.Quit();
+            }
+            else
+            {
+                employee.Quit(employee);
+            }
+            
+            
         }
     }
 }

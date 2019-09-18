@@ -9,6 +9,7 @@ namespace page124Drill
     interface IQuittable
     {
         void Quit(Employee employee);
+
        
         
     }

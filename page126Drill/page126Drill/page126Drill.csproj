@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{22EEE720-ABCB-4CE1-8FF9-A69A71E6190B}</ProjectGuid>
+    <ProjectGuid>{56F44971-ADB3-4F12-8C50-B38BAD1C91F8}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>page124Drill</RootNamespace>
-    <AssemblyName>page124Drill</AssemblyName>
+    <RootNamespace>page126Drill</RootNamespace>
+    <AssemblyName>page126Drill</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,9 +43,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Employee.cs" />
-    <Compile Include="IQuittable.cs" />
-    <Compile Include="Person.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

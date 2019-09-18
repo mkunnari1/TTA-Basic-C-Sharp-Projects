@@ -6,12 +6,15 @@ using System.Threading.Tasks;
 
 namespace page124Drill
 {
-    class Employee : Person
+    class Employee : Person, IQuittable
     {
-        public override void SayName()
+        public void Quit(Employee employee)
         {
-            base.SayName();
+            Console.WriteLine("Quitting program");
+            Console.ReadLine();
+            System.Environment.Exit(1);
         }
+        
     }
     
         

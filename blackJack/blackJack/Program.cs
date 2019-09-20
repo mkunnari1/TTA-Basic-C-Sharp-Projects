@@ -13,6 +13,12 @@ namespace blackJack
             
             
             Deck deck = new Deck();
+
+            int count = deck.Cards.Count(x => x.Face == Face.Ace);
+
+            Console.WriteLine(count);
+
+
             deck.Shuffle(3);
 
             foreach (Card card in deck.Cards)

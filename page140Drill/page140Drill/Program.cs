@@ -88,6 +88,24 @@ namespace page140Drill
             }
             Console.ReadLine();
 
+            List<Employee> joe2 = employees.Where(x => x.fName == "joe").ToList();
+
+            foreach (Employee joe in joe2)
+            {
+                Console.WriteLine("First Name: " + joe.fName + " Last Name: " + joe.lName + " Employee ID#: " + joe.empId);
+
+            }
+
+            Console.ReadLine();
+
+            List<Employee> highIds = employees.Where(x => x.empId > 5).ToList();
+
+            foreach(Employee joe in highIds)
+            {
+                Console.WriteLine("First Name: " + joe.fName + " Last Name: " + joe.lName + " Employee ID#: " + joe.empId);
+            }
+            Console.ReadLine();
+
 
 
         }

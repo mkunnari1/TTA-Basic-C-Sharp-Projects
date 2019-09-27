@@ -10,3 +10,39 @@ two of Diamonds
 
 queen of Hearts
 
+9/27/2019 1:31:02 PM
+king of Clubs
+
+9/27/2019 1:31:02 PM
+five of Clubs
+
+9/27/2019 1:31:02 PM
+king of Diamonds
+
+9/27/2019 1:31:02 PM
+four of Hearts
+
+9/27/2019 1:31:06 PM
+seven of Hearts
+
+9/27/2019 1:31:06 PM
+jack of Hearts
+
+9/27/2019 1:31:09 PM
+ten of Hearts
+
+9/27/2019 1:31:09 PM
+six of Clubs
+
+9/27/2019 1:31:09 PM
+four of Hearts
+
+9/27/2019 1:31:09 PM
+ten of Diamonds
+
+9/27/2019 1:31:12 PM
+five of Diamonds
+
+9/27/2019 1:31:13 PM
+six of Hearts
+

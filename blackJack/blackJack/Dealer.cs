@@ -20,6 +20,7 @@ namespace blackJack
             Console.WriteLine(card);
             using (StreamWriter file = new StreamWriter(@"C:\Users\HP\OneDrive\Documents\C#-Projects\TTA-Basic-C-Sharp-Projects\blackJack\cardLog.txt", true))
             {
+                file.WriteLine(DateTime.Now);
                 file.WriteLine(card);
             }
                 Deck.Cards.RemoveAt(0);

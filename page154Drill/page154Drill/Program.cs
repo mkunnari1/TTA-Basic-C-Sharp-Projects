@@ -13,7 +13,12 @@ namespace page154Drill
         {
             Console.WriteLine("Hello there friend can you provide me with a number please?");
             string num = Console.ReadLine();
-            using (StringWriter userNum = new StringWriter("@C:\Users\HP\OneDrive\Documents\C#-Projects\TTA-Basic-C-Sharp-Projects\page154Drill\page154Drill\numLog.txt", num)) ;
+            using (StreamWriter userNum = new StreamWriter(@"C:\Users\HP\OneDrive\Documents\C#-Projects\TTA-Basic-C-Sharp-Projects\page154Drill\page154Drill\numLog.txt", true))
+            {
+                userNum.WriteLine(num);
+            }
+            Console.WriteLine("The numbers you have provided are:\n" + File.ReadAllText(@"C:\Users\HP\OneDrive\Documents\C#-Projects\TTA-Basic-C-Sharp-Projects\page154Drill\page154Drill\numLog.txt"));
+            Console.Read();
         }
     }
 }

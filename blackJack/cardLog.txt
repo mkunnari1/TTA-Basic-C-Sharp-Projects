@@ -46,3 +46,117 @@ five of Diamonds
 9/27/2019 1:31:13 PM
 six of Hearts
 
+9/30/2019 10:10:29 AM
+queen of Clubs
+
+9/30/2019 10:10:29 AM
+two of Diamonds
+
+9/30/2019 10:10:29 AM
+ten of Diamonds
+
+9/30/2019 10:10:29 AM
+nine of Hearts
+
+9/30/2019 10:10:40 AM
+eight of Hearts
+
+9/30/2019 10:48:04 AM
+ten of Spades
+
+9/30/2019 10:48:04 AM
+seven of Diamonds
+
+9/30/2019 10:48:04 AM
+two of Hearts
+
+9/30/2019 10:48:04 AM
+ten of Clubs
+
+9/30/2019 10:48:07 AM
+ten of Hearts
+
+9/30/2019 10:51:27 AM
+eight of Hearts
+
+9/30/2019 10:51:27 AM
+queen of Spades
+
+9/30/2019 10:51:27 AM
+seven of Clubs
+
+9/30/2019 10:51:27 AM
+jack of Clubs
+
+9/30/2019 10:51:36 AM
+eight of Spades
+
+9/30/2019 10:51:42 AM
+five of Spades
+
+9/30/2019 10:51:42 AM
+king of Spades
+
+9/30/2019 10:51:42 AM
+seven of Clubs
+
+9/30/2019 10:51:42 AM
+ten of Spades
+
+9/30/2019 10:51:51 AM
+nine of Clubs
+
+9/30/2019 10:52:14 AM
+two of Hearts
+
+9/30/2019 10:52:14 AM
+king of Clubs
+
+9/30/2019 10:52:14 AM
+queen of Clubs
+
+9/30/2019 10:52:14 AM
+four of Clubs
+
+9/30/2019 10:52:19 AM
+seven of Spades
+
+9/30/2019 10:52:21 AM
+Ace of Spades
+
+9/30/2019 10:52:21 AM
+queen of Diamonds
+
+9/30/2019 10:52:30 AM
+seven of Spades
+
+9/30/2019 10:52:30 AM
+two of Clubs
+
+9/30/2019 10:52:30 AM
+six of Hearts
+
+9/30/2019 10:52:30 AM
+five of Hearts
+
+9/30/2019 10:52:33 AM
+queen of Diamonds
+
+9/30/2019 10:53:25 AM
+six of Diamonds
+
+9/30/2019 10:53:25 AM
+six of Spades
+
+9/30/2019 10:53:25 AM
+eight of Diamonds
+
+9/30/2019 10:53:25 AM
+three of Hearts
+
+9/30/2019 10:53:38 AM
+two of Spades
+
+9/30/2019 10:53:42 AM
+king of Clubs
+

@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{B1A5E577-880F-4243-AD8D-4D09ED4488D1}</ProjectGuid>
+    <ProjectGuid>{E07DB356-A286-4534-BF5E-24D1F52B0B8F}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>blackJack</RootNamespace>
-    <AssemblyName>blackJack</AssemblyName>
+    <RootNamespace>page162Drill</RootNamespace>
+    <AssemblyName>page162Drill</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -33,9 +33,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Casino">
-      <HintPath>..\Casino\bin\Debug\Casino.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />

@@ -4,11 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace blackJack
+namespace page162Drill
 {
-   public interface IWalkAway
+    class Program
     {
-        void WalkAway(Player player);
-
+        static void Main(string[] args)
+        {
+        }
     }
 }
